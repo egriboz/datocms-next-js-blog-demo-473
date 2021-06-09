@@ -79,7 +79,7 @@ export default function Index({ subscription }) {
         <Head>{renderMetaTags(metaTags)}</Head>
         <Container>
           <Intro />
-          {/* {heroPost && (
+          {heroPost && (
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
@@ -88,8 +88,8 @@ export default function Index({ subscription }) {
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
-          )} */}
-          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+          )}
+          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
     </>
