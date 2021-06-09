@@ -19,10 +19,10 @@ function Projeler({ data }) {
                   {item.Url}----{item.Category}
                 </p>
 
-                {/* <div className="flex space-x-1 text-gray-500">
+                <div className="flex space-x-1 text-gray-500">
                   <span>{item.Category},</span>
                   <span>{item.Name}</span>
-                </div> */}
+                </div>
               </div>
             );
           })}
